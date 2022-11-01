@@ -1,0 +1,21 @@
+body {
+  height: 100vw;
+}
+
+.section {
+  margin-top: 50px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.block {
+  width: 200px;
+  height: 200px;
+  margin-right: 30px;
+  margin-top: 20px;
+  background-color: #6c5579;
+}
+
+.block-last {
+  margin-right: 0;
+}/*# sourceMappingURL=style.css.map */
