@@ -38,7 +38,9 @@ blocks.forEach((block) => {
         } else {
             //если нет - мы делаем ещё один forEach, и удаляем этот класс со всех элементов
             blocks.forEach((block) => {
-                block.classList.remove('activeBlock')
+                if (block.classList.contains('activeBlock')){
+                    block.classList.remove('activeBlock')
+                }
             })
             //после чего вешаем его на тот, на который мы кликали
             block.classList.add('activeBlock')
